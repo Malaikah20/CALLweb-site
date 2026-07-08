@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: gray;
+}
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background: url(img/Gemini_Generated_Image_sl7c6wsl7c6wsl7c.jpeg)center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+}
+
+.nav-bar {
+    position:relative;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-box {
+    width: 50px;
+    height: 50px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    font-size: 7px;
+}
+
+.logo-text {
+   display: flex;
+   flex-direction: column;
+   line-height: 1.2;
+}
+
+
+
+
+
+
+
