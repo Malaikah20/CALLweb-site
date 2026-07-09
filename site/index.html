@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header class="hero">
+    <header class="hero" id="home">
+        <div class="overlay"></div>
         <nav class="nav-bar">
           <div class="logo">
             <span class="logo-box">CALL</span>
@@ -17,15 +18,16 @@
           </div>
          </div>
          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
          </ul>
 
-         <div class="nav-action"></div>
+         <div class="nav-actions">
          <a href="#" class="login-btn">Login</a>
+            </div>
         </nav>
         <div class="hero-content">
             <p class="subtitle"> welcome to CALL for a livable land</p>
@@ -36,5 +38,19 @@
         </div>
 
     </header>
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <p class="about-label">About US</p>
+                <h2>QUI SOMMES-NOUS</h2>
+                <p>We are a team of passionate individuals dedicated to creating a more sustainable and equitable future for all, 
+                   and we believe in the power of collective action to drive meaningful change because we are committed to promoting environmental stewardship, 
+                   social responsibility, and economic development through innovative solutions and collaborative partnerships.
+                </p>
+                <a href="#" class="about-btn">find out more</a>
+            </div>
+        </div>
+
+    </section>
 </body>
 </html>
