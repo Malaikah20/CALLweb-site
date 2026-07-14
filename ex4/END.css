@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 247, 247);
+}
+
+.calculated {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(240, 243, 243);
+
+}
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    color: beige;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#calculate {
+    margin: 20px;
+    background-color: rgb(95, 126, 126);
+    border-radius: 12px;
+}
+
+#result {
+    margin: 20px;
+    font-size: 20px;
+}
+

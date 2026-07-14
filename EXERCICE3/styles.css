@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 189, 189);
+}
+
+.EXCHANGE {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(240, 243, 243);
+
+}
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    color: beige;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#taux {
+    margin: 20px;
+    background-color: rgb(95, 126, 126);
+    border-radius: 12px;
+}
+
+#result {
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
