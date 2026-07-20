@@ -6,6 +6,10 @@ function décroissant() {
     document.getElementById("result").style.color = "red"
 }
 
+// pour forcé la valeur de décroissant a 0 il faut faire avec la boucle for
+
+
+
 function croissant() {
     compteur ++;
     document.getElementById("result").innerText= compteur; 
